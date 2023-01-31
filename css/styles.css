@@ -50,6 +50,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0;
 }
 
 .flex {
@@ -71,11 +72,11 @@ img {
   margin-left: auto;
   margin-right: auto; */
 
-   margin-right: auto;
+  margin-right: auto;
   margin-left: auto;
   width: 296px;
   padding-left: 15px;
-  padding-right: 15px; 
+  padding-right: 15px;
   align-items: baseline;
   /* outline: 2px solid tomato; */
 }
@@ -346,7 +347,7 @@ img {
   color: var(--text-color);
 }
 .team-item {
-  width: 100%;
+  width: 264px;
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 32px;
