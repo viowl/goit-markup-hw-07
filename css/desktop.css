@@ -3,6 +3,16 @@
     width: 1170px;
   }
 
+  /* ================HERO================ */
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  .hero {
+    padding-top: 188px;
+  }
+
   /* =============TEAM============ */
   .team {
     padding-top: 120px;

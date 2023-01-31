@@ -5,10 +5,16 @@
   /* =====================hero============== */
   .hero-title {
     max-width: 494px;
-    font-size: 56px;
+    font-size: 55px;
     line-height: 1.07;
     margin-bottom: 40px;
   }
+
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+
   .overlay {
     height: 436px;
   }
