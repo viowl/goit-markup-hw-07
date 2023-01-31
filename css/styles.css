@@ -65,11 +65,17 @@ img {
 }
 
 .container {
-  margin-right: auto;
+  /* max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; */
+
+   margin-right: auto;
   margin-left: auto;
   width: 296px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; 
   align-items: baseline;
   /* outline: 2px solid tomato; */
 }
@@ -182,21 +188,21 @@ img {
   background-color: var(--dark-color);
   text-align: center;
 
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--white-color);
 
-  max-width: 496px;
+  max-width: 318px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .button-hero {
@@ -228,7 +234,7 @@ img {
 
 .overlay {
   max-width: 1440px;
-  height: 600px;
+  height: 432px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(

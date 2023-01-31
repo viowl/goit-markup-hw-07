@@ -2,8 +2,19 @@
   .container {
     width: 582px;
   }
+  /* =====================hero============== */
+  .hero-title {
+    max-width: 494px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+  }
+  .overlay {
+    height: 436px;
+  }
+  /* =====================team============== */
   .team-item {
-    width: 264px;
+    width: calc((100% - 54px) / 2);
   }
   .team {
     padding-top: 96px;
@@ -14,6 +25,7 @@
     gap: 24px;
     row-gap: 64px;
   }
+  /*=================== customers=========== */
   .customers-list {
     gap: 24px;
     row-gap: 72px;
