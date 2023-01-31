@@ -1,0 +1,27 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* CUSTOMERS */
+
+  .container-customers {
+    width: 1170px;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+}
+
+}

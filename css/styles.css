@@ -48,6 +48,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .flex {
@@ -65,7 +67,7 @@ img {
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 1158px;
+  width: 296px;
   padding-left: 15px;
   padding-right: 15px;
   align-items: baseline;
@@ -269,11 +271,6 @@ img {
   flex-basis: calc((100% - 24px * 3) / 4);
 }
 
-/* .method-item {
-    width: 264px;
-    
-  } */
-
 .item-antenna {
   display: flex;
   background-color: var(--light-color);
@@ -304,12 +301,11 @@ img {
   padding-bottom: 120px;
 }
 
-/*---------------------- our team  */
+/*---------------------- OUR TEAM =============== */
 .team {
   background-color: var(--light-color);
-
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
 }
 
 .team-title {
@@ -344,6 +340,7 @@ img {
   color: var(--text-color);
 }
 .team-item {
+  width: 100%;
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 32px;
@@ -351,8 +348,14 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.gallery-list {
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
 .team-link-icon {
   display: flex;
+
   justify-content: center;
   align-items: center;
   background-color: var(--brand-color);
@@ -376,6 +379,7 @@ img {
 
 .social-team-list {
   margin-top: 8px;
+
   justify-content: center;
   display: flex;
   gap: 24px;
@@ -383,8 +387,17 @@ img {
 
 /* -----------------------CUSTOMERS */
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.container-customers {
+  width: 396px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: baseline;
 }
 .customers-title {
   margin-bottom: 72px;
@@ -398,6 +411,7 @@ img {
 }
 
 .customers-item {
+  width: calc((100% - 16px) / 2);
   border: 1px solid var(--subtle-color);
   border-radius: 4px;
 
@@ -430,6 +444,11 @@ img {
   fill: var(--press-color);
 }
 
+.customers-list {
+  gap: 16px;
+  row-gap: 72px;
+  flex-wrap: wrap;
+}
 /*--------------========= FOOTER==========*/
 
 .footer {
@@ -919,22 +938,3 @@ img {
   border: none;
   fill: var(--light-color);
 }
-
-/* .check-text::before {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 16px;
-
-  border: 1.25px solid var(--dark-color);
-  border-radius: 2px;
-}
-
-.input-check:checked + .check-text::before {
-  background-color: var(--press-color);
-  border: none;
-  background-image: url(../images/v.svg);
-  background-repeat:no-repeat;
-  background-position: center;
-  
-} */
