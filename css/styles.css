@@ -82,6 +82,14 @@ img {
 }
 /* ----------------------HEADER */
 
+.container-header {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;

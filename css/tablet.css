@@ -2,6 +2,11 @@
   .container {
     width: 582px;
   }
+
+  /* ==================HEADER======================= */
+  .container-header {
+    width: 738px;
+  }
   /* =====================hero============== */
   .hero-title {
     max-width: 494px;

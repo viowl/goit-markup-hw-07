@@ -11,6 +11,11 @@
 
   .hero {
     padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .overlay {
+    height: 600px;
   }
 
   /* =============TEAM============ */
