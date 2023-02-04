@@ -536,12 +536,13 @@ img {
 
 
 .footer-form {
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 16px;
   flex-wrap: wrap;
   justify-content: center;
 }
 .subscribe-title {
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -579,6 +580,9 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-subscribe {
+  
+}
 
 
 .footer-button {
@@ -594,6 +598,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
 
   color: var(--white-color);
   fill: var(--white-color);
