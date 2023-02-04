@@ -1,5 +1,68 @@
 @media screen and (min-width: 768px) {
-  .container {
-    width: 582px;
+  
+
+  /* ===============OUR TEAM ============== */
+  
+  .team > .container{
+    min-width: auto;
   }
+
+  /* =======================METHODS+++++++++======== */
+
+  .team-list {
+    row-gap: 62px;
+  }
+
+  .team-title {
+    margin-bottom: 72px;
+  }
+
+  .team {
+    padding-bottom: 104px;
+  }
+
+  /* ===================+++++CUSTOMERS========== */
+
+  .customers > .container{
+    max-width: 552px;
+  }
+
+  .customers-link {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .customers-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  /* ===============+++++++++FOOTER============== */
+
+.footer > .container {
+    max-width: 552px;
+}
+
+  .footer-left {
+    display: inline-block;
+    
+  }
+
+  .footer-right {
+    margin: 0px 0px 0px 24px;
+  }
+
+  .footer-left > .logo {
+    display: inline-block;
+  }
+
+  /* .subscribe-title {
+    text-align: left;
+  } */
+
+  /* .footer-form {
+    justify-content: start;
+  } */
+  /* .footer-button {
+    height: 40px;
+  } */
+
 }

@@ -71,6 +71,14 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-nav {
+  display: flex;
+}
+
+.header > .container {
+  display: flex;
+}
+
 .brand-logo {
   color: var(--brand-color);
 }
@@ -155,11 +163,13 @@ img {
 }
 
 .header-list {
+  display: flex;
   margin-left: 76px;
   gap: 40px;
 }
 
 .header-contact {
+  display: flex;
   margin-left: auto;
   gap: 40px;
 }
@@ -373,7 +383,7 @@ img {
   flex-wrap: wrap;
   row-gap: 72px;
   justify-content: center;
-  
+  column-gap: 24px;
 }
 
 .social-team-list {
@@ -399,13 +409,12 @@ img {
   text-align: center;
 }
 
-.customers-list{
+.customers-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 72px;
   justify-content: center;
-  
 }
 
 .customers-item {
@@ -452,7 +461,7 @@ img {
 }
 
 .footer-left {
-margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .footer-text {
@@ -463,8 +472,8 @@ margin-bottom: 72px;
   color: var(--accent-color);
   width: 264px;
   height: 72px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 16px;
 }
 
@@ -479,7 +488,7 @@ margin-right: auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  
+
   height: 24px;
   margin-bottom: 16px;
 
@@ -487,11 +496,16 @@ margin-right: auto;
 }
 
 .footer-right {
-  margin-left: 120px;
+  margin-left: auto;
+  margin-right: auto;
   width: 208px;
   height: 80px;
   margin-bottom: 72px;
 }
+
+/* .footer-lr {
+  display: flex;
+} */
 
 .footer-right-list {
   display: flex;
@@ -519,12 +533,10 @@ margin-right: auto;
 
 /* =================FOOTER FORM============== */
 
-.footer-subscribe {
-  
-}
+
 
 .footer-form {
-  display: flex;
+  display: inline-block;
   margin-top: 16px;
   flex-wrap: wrap;
   justify-content: center;
@@ -535,14 +547,15 @@ margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-text-align: center;
-  
+  text-align: centar;
+
   letter-spacing: 0.02em;
 
   color: var(--white-color);
 }
 
 .input-subscribe {
+  
   width: 100%;
   height: 40px;
 
@@ -565,6 +578,8 @@ text-align: center;
 
   margin-bottom: 16px;
 }
+
+
 
 .footer-button {
   display: flex;

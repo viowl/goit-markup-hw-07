@@ -1,9 +1,8 @@
 @media screen and (min-width: 1200px) {
+  /* ===========HEADER+++++============!!!!==== */
 
-/* ===========HEADER+++++============!!!!==== */
-
-.logo {
- justify-content: flex-start;
+  .logo {
+    justify-content: flex-start;
   }
 
   .container {
@@ -44,7 +43,6 @@
 
   .method-item {
     margin-bottom: 0;
-    
   }
 
   .methods-title {
@@ -52,7 +50,7 @@
     font-size: 20px;
     line-height: 1.2;
     text-align: left;
-  }  
+  }
 
   .methods-text {
     font-weight: 400;
@@ -63,81 +61,96 @@
     padding-bottom: 120px;
   }
 
+  /* =========================OUR TEAM============== */
 
-/* =========================OUR TEAM============== */
-
-.team {
+  .team {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 
-    .team-list {
-        column-gap: 24px;
-    }
+  .team-list {
+    column-gap: 24px;
+  }
 
-    .team-title {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-      
-        color: var(--dark-color);
-        margin-bottom: 72px;
-      }
+  .team-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
 
-      /* ===================Customers===================== */
+    color: var(--dark-color);
+    margin-bottom: 72px;
+  }
 
-      .customers {
-        padding-top: 130px;
-        padding-bottom: 120px;
-      }
+  /* ===================Customers===================== */
 
-      .customers-item {
-        flex-basis: calc((100% - 120px) / 6);
-      }
+  .customers > .container{
+    max-width: 1158px;
+  }
 
-      .customers-link{
-        flex-basis: calc((100% - 120px) / 6);
-      }
+  .customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
 
-      .customers-list{
-        display: flex;
-        gap: 24px;
-      }
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
 
-      /* ===================FOOTER===++++======? */
+  .customers-link {
+    flex-basis: calc((100% - 120px) / 6);
+  }
 
-      .footer > .container {
-        display: flex;
-      }
+  .customers-list {
+    display: flex;
+    gap: 24px;
+  }
 
-      .footer {
-        padding-top: 100px;
-  padding-bottom: 100px;
-      }
+  /* ===================FOOTER===++++======? */
 
-      .footer-left {
+  .footer > .container {
+    max-width: 1158px;
+}
 
-      }
+  .footer > .container {
+    display: flex;
+  }
 
-      .footer-social {
-        
-        text-align: left;
-      }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-      .footer-subscribe {
-        margin-left: 80px;
-      }
-      .subscribe-title {
-        text-align: left;
-      }
-      .input-subscribe{
-        margin-bottom: 0;
-        width: 264px;
-      }
+  .footer-left {
+    display: block;
+    margin-right: 0;
+  }
 
-    }
+  .footer-right {
+    display: block;
+  }
 
+  .footer-social {
+    text-align: left;
+  }
 
-  
+  .footer-subscribe {
+    margin-left: 80px;
+  }
+  .subscribe-title {
+    text-align: left;
+  }
+  .input-subscribe {
+    margin-bottom: 0;
+    width: 264px;
+  }
+
+  .footer-button {
+    height: 40px;
+  }
+
+  .footer-lr {
+    display: flex;
+  }
+}
