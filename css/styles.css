@@ -535,29 +535,29 @@ img {
 
 
 
+.footer-subscribe {
+  margin-left: 80px;
+}
+
 .footer-form {
-  /* display: inline-block; */
+  display: flex;
   margin-top: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 .subscribe-title {
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: centar;
 
+  margin: 0;
   letter-spacing: 0.02em;
 
   color: var(--white-color);
 }
 
 .input-subscribe {
-  
-  width: 100%;
+  width: 264px;
   height: 40px;
 
   background-color: transparent;
@@ -576,14 +576,7 @@ img {
   letter-spacing: 0.04em;
 
   color: rgba(255, 255, 255, 0.6);
-
-  margin-bottom: 16px;
 }
-
-.footer-subscribe {
-  
-}
-
 
 .footer-button {
   display: flex;
@@ -599,7 +592,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-
   color: var(--white-color);
   fill: var(--white-color);
 
@@ -614,6 +606,7 @@ img {
   align-items: center;
   justify-content: center;
 }
+
 
 /* ----------------------portfolio page=========  */
 .button-filter {
