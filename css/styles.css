@@ -97,6 +97,9 @@ img {
 }
 
 .link-nav {
+  display: none;
+
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -127,6 +130,9 @@ img {
 }
 
 .link-mail {
+  display: none;
+
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -146,6 +152,8 @@ img {
 }
 
 .link-tel {
+display: none;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

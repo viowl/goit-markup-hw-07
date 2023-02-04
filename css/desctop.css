@@ -1,10 +1,18 @@
 @media screen and (min-width: 1200px) {
   /* ===========HEADER+++++============!!!!==== */
 
-  .logo {
-    justify-content: flex-start;
+  .link-nav {
+    display: flex;
   }
-
+  
+  .link-mail {
+    display: flex;
+  }
+  
+  .link-tel {
+    display: flex;
+  }
+  
   .container {
     width: 1158px;
   }
