@@ -1,3 +1,143 @@
 @media screen and (min-width: 1200px) {
+
+/* ===========HEADER+++++============!!!!==== */
+
+.logo {
+ justify-content: flex-start;
+  }
+
+  .container {
+    width: 1158px;
+  }
+  /* ==================HERO!+============ */
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .overlay {
+    height: 600px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+  }
+
+  /* ============METHODS======= */
+
+  .item-antenna {
+    display: flex;
+  }
+
+  .method-list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 24px * 3) / 4);
+  }
+
+  .method-item {
+    margin-bottom: 0;
     
-}
+  }
+
+  .methods-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+  }  
+
+  .methods-text {
+    font-weight: 400;
+  }
+
+  .method {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+
+/* =========================OUR TEAM============== */
+
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+    .team-list {
+        column-gap: 24px;
+    }
+
+    .team-title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+      
+        color: var(--dark-color);
+        margin-bottom: 72px;
+      }
+
+      /* ===================Customers===================== */
+
+      .customers {
+        padding-top: 130px;
+        padding-bottom: 120px;
+      }
+
+      .customers-item {
+        flex-basis: calc((100% - 120px) / 6);
+      }
+
+      .customers-link{
+        flex-basis: calc((100% - 120px) / 6);
+      }
+
+      .customers-list{
+        display: flex;
+        gap: 24px;
+      }
+
+      /* ===================FOOTER===++++======? */
+
+      .footer > .container {
+        display: flex;
+      }
+
+      .footer {
+        padding-top: 100px;
+  padding-bottom: 100px;
+      }
+
+      .footer-left {
+
+      }
+
+      .footer-social {
+        
+        text-align: left;
+      }
+
+      .footer-subscribe {
+        margin-left: 80px;
+      }
+      .subscribe-title {
+        text-align: left;
+      }
+      .input-subscribe{
+        margin-bottom: 0;
+        width: 264px;
+      }
+
+    }
+
+
+  
