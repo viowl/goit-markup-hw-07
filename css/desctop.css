@@ -141,16 +141,18 @@
   .subscribe-title {
     text-align: left;
   }
-  .input-subscribe {
-    width: 264px;
-  }
+  
 
   .footer-button {
+    display: flex;
     height: 40px;
     margin-left: 0;
   margin-right: 0;
   margin-left: 24px;
+  margin-left: auto;
+  margin-right: auto;
   }
+  
 
   .footer-lr {
     display: flex;
