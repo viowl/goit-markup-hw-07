@@ -85,7 +85,7 @@
 
   /* ===================Customers===================== */
 
-  .customers > .container{
+  .customers > .container {
     max-width: 1158px;
   }
 
@@ -111,7 +111,7 @@
 
   .footer > .container {
     max-width: 1158px;
-}
+  }
 
   .footer > .container {
     display: flex;
@@ -142,15 +142,21 @@
     text-align: left;
   }
   .input-subscribe {
-    margin-bottom: 0;
     width: 264px;
   }
 
   .footer-button {
     height: 40px;
+    margin-left: 0;
+  margin-right: 0;
+  margin-left: 24px;
   }
 
   .footer-lr {
+    display: flex;
+  }
+
+  .footer-form {
     display: flex;
   }
 }

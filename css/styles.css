@@ -503,9 +503,6 @@ img {
   margin-bottom: 72px;
 }
 
-/* .footer-lr {
-  display: flex;
-} */
 
 .footer-right-list {
   display: flex;
@@ -536,11 +533,12 @@ img {
 
 
 .footer-subscribe {
-  margin-left: 80px;
+ display: block;
+ text-align: center;
 }
 
 .footer-form {
-  display: flex;
+  
   margin-top: 16px;
 }
 .subscribe-title {
@@ -557,9 +555,10 @@ img {
 }
 
 .input-subscribe {
-  width: 264px;
+  width: 100%;
   height: 40px;
-
+  
+  margin-bottom: 16px;
   background-color: transparent;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -580,6 +579,8 @@ img {
 
 .footer-button {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
   background-color: var(--brand-color);
   border-radius: 4px;
@@ -597,7 +598,6 @@ img {
 
   padding: 8px 24px;
 
-  margin-left: 24px;
 }
 
 .icon-send {
