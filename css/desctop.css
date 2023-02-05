@@ -1,6 +1,10 @@
 @media screen and (min-width: 1200px) {
   /* ===========HEADER+++++============!!!!==== */
 
+  .header {
+    padding-top: 22px;
+    padding-bottom: 23px;
+  }
   /* .link-nav {
     display: flex;
   } */
@@ -182,7 +186,6 @@
   .footer-social {
     text-align: left;
   }
-
   .footer-subscribe {
     margin-left: 80px;
   }
@@ -190,7 +193,6 @@
     text-align: left;
   }
   
-
   .footer-button {
     display: flex;
     height: 40px;
@@ -200,13 +202,15 @@
   margin-left: auto;
   margin-right: auto;
   }
-  
-
   .footer-lr {
-    display: flex;
+    column-gap: 120px;
+    margin-bottom: 0;
   }
-
   .footer-form {
     display: flex;
+  }
+  .input-subscribe {
+    margin-bottom: 0;
+    margin-right: 48px;
   }
 }
