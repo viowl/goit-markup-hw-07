@@ -93,6 +93,7 @@
 
   .footer-left {
     display: inline-block;
+    margin-bottom: 0;
   }
 
   .footer-right {
