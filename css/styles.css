@@ -223,16 +223,21 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 40px;
+  right: 40px;
   width: 24px;
   height: 24px;
   margin-left: auto;
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50px;
+
+  
 }
 
 .mob-menu-list {
-  margin-top: 16px;
+  margin-top: 40px;
   color: var(--dark-color );
 }
 
