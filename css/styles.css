@@ -77,6 +77,7 @@ img {
 
 .header > .container {
   display: flex;
+  align-items: center;
 }
 
 .brand-logo {
@@ -122,7 +123,7 @@ img {
   width: 100%;
   background-color: var(--press-color);
   position: absolute;
-  bottom: -29px;
+  bottom: -25px;
 
   left: 0;
   border-radius: 4px;
@@ -131,7 +132,7 @@ img {
 .link-mail {
   display: none;
 
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -152,7 +153,7 @@ img {
 .link-tel {
   display: none;
 
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -183,7 +184,7 @@ img {
 .header-item {
   position: relative;
 }
-
+/* ===========buttonBURGER====++++++++++ */
 .menu-open-icon {
   stroke: var(--dark-color);
 }
@@ -251,9 +252,6 @@ color: var(--brand-color);
   color: var(--dark-color);
   margin-bottom: 40px;
 }
-
-
-
 
 .mob-contact-item:not(:last-child) {
   margin-bottom: 40px;

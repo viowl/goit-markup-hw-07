@@ -1,5 +1,16 @@
-@media screen and (min-width: 480px)  {
-}
-/* .team > .container{
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+
+.team > .container{
     max-width: 428px;
-  } */
+  }
+
+  .customers > .container{
+    max-width: 428px;
+  }
+
+  .method > .container{
+    max-width: 428px;
+  }
+
+}

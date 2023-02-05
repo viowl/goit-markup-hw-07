@@ -1,16 +1,36 @@
 @media screen and (min-width: 768px) {
 
 /* =================HEADER============= */
+.button-open{
+  display: none;
+}
 
+.link-nav {
+  display: flex;
+}
+
+.link-mail {
+  display: flex;
+}
+
+.link-tel {
+  display: flex;
+}
+
+.link-nav.current::after {
+  bottom: -37px;
+}
+
+.header-contact {
+  display: block;
+}
 
 
   /* ===============OUR TEAM ============== */
 
   .team > .container {
-    min-width: auto;
+    max-width: 768px;
   }
-
-  /* =======================METHODS+++++++++======== */
 
   .team-list {
     row-gap: 62px;
@@ -23,6 +43,28 @@
   .team {
     padding-bottom: 104px;
   }
+
+/* =======================METHODS+++++++++======== */
+.method > .container{
+  max-width: 768px;
+}
+
+.method-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 24px;
+  
+}
+
+.method-item {
+  margin-bottom: 0;
+  width: 356px;
+}
+
+.methods-title {
+  text-align: left;
+}
 
   /* ===================+++++CUSTOMERS========== */
 

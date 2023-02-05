@@ -1,16 +1,25 @@
 @media screen and (min-width: 1200px) {
   /* ===========HEADER+++++============!!!!==== */
 
-  .link-nav {
+  /* .link-nav {
     display: flex;
-  }
+  } */
   
   .link-mail {
-    display: flex;
+    
+    font-weight: 500;
+  }
+
+  .link-tel {
+    font-weight: 500;
   }
   
-  .link-tel {
+  .header-contact {
     display: flex;
+  }
+
+  .link-nav.current::after {
+    bottom: -25px;
   }
   
   .container {
@@ -39,18 +48,22 @@
 
   /* ============METHODS======= */
 
+  .method > .container{
+    max-width: 1158px;
+  }
+
   .item-antenna {
     display: flex;
   }
 
   .method-list {
     display: flex;
-    gap: 24px;
-    flex-basis: calc((100% - 24px * 3) / 4);
+    column-gap: 24px;
   }
 
   .method-item {
     margin-bottom: 0;
+    flex-basis: calc((100% - 24px * 3) / 4);
   }
 
   .methods-title {
@@ -93,6 +106,10 @@
     padding-bottom: 120px;
   }
   /* =========================OUR TEAM============== */
+
+  .team > .container {
+    min-width: 1158px;
+  }
 
   .team {
     padding-top: 120px;
