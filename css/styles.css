@@ -99,7 +99,6 @@ img {
 .link-nav {
   display: none;
 
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -132,7 +131,6 @@ img {
 .link-mail {
   display: none;
 
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -152,7 +150,7 @@ img {
 }
 
 .link-tel {
-display: none;
+  display: none;
 
   font-weight: 500;
   font-size: 16px;
@@ -184,6 +182,105 @@ display: none;
 
 .header-item {
   position: relative;
+}
+
+.menu-open-icon {
+  stroke: var(--dark-color);
+}
+
+.button-open {
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 1;
+  padding: 40px;
+}
+
+.mob-wrap {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mob-social-list {
+  display: flex;
+}
+
+.button-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.mob-menu-list {
+  margin-top: 16px;
+}
+
+.mob-menu-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+  margin-bottom: 40px;
+}
+
+.mob-menu-item:last-child {
+  color: #404bbf;
+}
+
+.mob-contact-item {
+}
+
+.mob-contact-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mob-menu-mail {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+.mob-menu-tel {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--brand-color);
+}
+
+.mob-social-list {
+  margin-top: 48px;
+  display: flex;
+  column-gap: 56px;
+}
+.mob-icon-item {
+  width: 40px;
+  height: 40px;
+}
+.team-link-icon {
+}
+.team-icon {
 }
 
 /*--------------- hero */
@@ -511,7 +608,6 @@ display: none;
   margin-bottom: 72px;
 }
 
-
 .footer-right-list {
   display: flex;
   gap: 16px;
@@ -538,15 +634,12 @@ display: none;
 
 /* =================FOOTER FORM============== */
 
-
-
 .footer-subscribe {
- display: block;
- text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .footer-form {
-  
   margin-top: 16px;
 }
 .subscribe-title {
@@ -565,7 +658,7 @@ display: none;
 .input-subscribe {
   width: 100%;
   height: 40px;
-  
+
   margin-bottom: 16px;
   background-color: transparent;
   outline: none;
@@ -605,7 +698,6 @@ display: none;
   fill: var(--white-color);
 
   padding: 8px 24px;
-
 }
 
 .icon-send {
@@ -614,7 +706,6 @@ display: none;
   align-items: center;
   justify-content: center;
 }
-
 
 /* ----------------------portfolio page=========  */
 .button-filter {
