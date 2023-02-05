@@ -208,10 +208,10 @@ img {
 
 .mob-wrap {
   height: 100%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 
 .mob-social-list {
@@ -247,9 +247,6 @@ img {
   color: #404bbf;
 }
 
-.mob-contact-item {
-}
-
 .mob-contact-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -257,11 +254,10 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
   letter-spacing: 0.02em;
-
   color: var(--text-color);
 }
+
 .mob-menu-tel {
   font-weight: 600;
   font-size: 36px;
@@ -277,10 +273,6 @@ img {
 .mob-icon-item {
   width: 40px;
   height: 40px;
-}
-.team-link-icon {
-}
-.team-icon {
 }
 
 /*--------------- hero */
