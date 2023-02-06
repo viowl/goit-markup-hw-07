@@ -1,35 +1,56 @@
 @media screen and (min-width: 768px) {
+  /* =================HEADER============= */
+  .button-open {
+    display: none;
+  }
 
-/* =================HEADER============= */
-.button-open{
-  display: none;
-}
+  .link-nav {
+    display: flex;
+  }
 
-.link-nav {
-  display: flex;
-}
+  .link-mail {
+    display: flex;
+  }
 
-.link-mail {
-  display: flex;
-}
+  .link-tel {
+    display: flex;
+  }
 
-.link-tel {
-  display: flex;
-}
+  .link-nav.current::after {
+    bottom: -24px;
+  }
 
-.link-nav.current::after {
-  bottom: -24px;
-}
+  .header-contact {
+    display: block;
+  }
 
-.header-contact {
-  display: block;
-}
+  .header {
+    padding-top: 10px;
+    padding-bottom: 11px;
+  }
 
-.header {
-  padding-top: 10px;
-  padding-bottom: 11px;
-}
+  /* ======================+++++++==HERO===++++++ */
+  .overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab.jpg);
+  }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab-2x.jpg);
+    }
+  }
 
   /* ===============OUR TEAM ============== */
 
@@ -49,27 +70,26 @@
     padding-bottom: 104px;
   }
 
-/* =======================METHODS+++++++++======== */
-.method > .container{
-  max-width: 768px;
-}
+  /* =======================METHODS+++++++++======== */
+  .method > .container {
+    max-width: 768px;
+  }
 
-.method-list {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 64px;
-  column-gap: 24px;
-  
-}
+  .method-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
 
-.method-item {
-  margin-bottom: 0;
-  width: 356px;
-}
+  .method-item {
+    margin-bottom: 0;
+    width: 356px;
+  }
 
-.methods-title {
-  text-align: left;
-}
+  .methods-title {
+    text-align: left;
+  }
 
   /* ===================+++++CUSTOMERS========== */
 
@@ -132,4 +152,3 @@
     margin-left: 24px;
   }
 }
-
