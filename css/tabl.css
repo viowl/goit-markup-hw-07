@@ -58,10 +58,6 @@
     max-width: 768px;
   }
 
-  .team-list {
-    row-gap: 62px;
-  }
-
   .team-title {
     margin-bottom: 72px;
   }
@@ -89,6 +85,10 @@
 
   .methods-title {
     text-align: left;
+  }
+
+  .method-item:not(:last-child) {
+    margin-bottom: 0;
   }
 
   /* ===================+++++CUSTOMERS========== */

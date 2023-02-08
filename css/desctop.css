@@ -200,6 +200,7 @@
 
   .footer-right {
     display: block;
+    margin-left: 0;
   }
 
   .footer-social {
